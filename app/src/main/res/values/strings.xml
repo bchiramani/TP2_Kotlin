@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StudentPresenceApp</string>
+    <string-array name="seance">
+        <item>Cours</item>
+        <item>TP</item>
+    </string-array>
+</resources>
