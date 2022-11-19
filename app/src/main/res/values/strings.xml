@@ -4,4 +4,8 @@
         <item>Cours</item>
         <item>TP</item>
     </string-array>
+    <string-array name="absence">
+        <item>Present</item>
+        <item>Absent</item>
+    </string-array>
 </resources>

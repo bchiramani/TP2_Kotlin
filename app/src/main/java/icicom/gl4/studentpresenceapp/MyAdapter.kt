@@ -22,7 +22,12 @@ class MyAdapter (private val studentsList: ArrayList<Student> ): RecyclerView.Ad
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val currentItem= studentsList[position]
-        holder.titleImage.setImageResource(currentItem.titleImage)
+        if(currentItem.sex=="F"){
+            holder.titleImage.setImageResource( R.drawable.b)
+        }else{
+            holder.titleImage.setImageResource( R.drawable.a)
+        }
+
         holder.firstname.text=currentItem.firstname
         holder.lastname.text=currentItem.lastname
 
